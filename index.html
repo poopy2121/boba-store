@@ -44,30 +44,31 @@
 
     <section id="contact">
 
-        <div>
 
+      
+            <form>
 
+                
 
-            <h3>FRAGEN? KONTAKTIERE UNS GERNE!</h3>
-
-            <label for="fn">Vorname</label> <br>
-            <input type="text" id="fn" name="firstname">
+                <label for="fn">Vorname</label> <br>
+                <input type="text" id="fn" name="firstname" required>
 
             	
-            <label for="ln">Nachname</label> 
-            <input type="text" name="lastname" id="ln">
+                <label for="ln">Nachname</label> 
+                <input type="text" name="lastname" id="ln" required>
 
 
-            <label for="email">E-Mail</label>
-            <input type="email" name="usemail" id="email">
+                <label for="email">E-Mail</label>
+                <input type="email" name="usemail" id="email" required>
 
+                <div>
+                <label for="msg">deine nachricht</label><br>
+                <input type="text" id="msg" placeholder=HIER>
+                </div>
 
-            <label for="msg">Deine Nachricht</label>
-            <textarea name="nachricht" id="msg" cols="30" rows="5"></textarea>
-
-
-        </div>
-
+                <input type="submit" value="Abschicken" required>
+            
+            </form>
 
 
     </section>
