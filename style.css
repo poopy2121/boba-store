@@ -1,4 +1,31 @@
-p {
-   
+body {
+}
 
-}   
+
+#location-and-hours {
+    position: relative;
+    background-color: beige;
+    height: auto;
+    text-align: center;                 
+    top: 5px; 
+    padding: 12px;              
+}
+
+#location-and-hours h1 {
+
+    font-size: 4em; margin: .67em 0;
+    font-weight: bolder;
+
+}
+
+#location-and-hours p {
+    font-size: 1.2em;
+}
+
+#google-api {
+    background-color: red;
+
+}
+
+
+#contact
