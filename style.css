@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 200vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -86,5 +86,12 @@ form input[type="submit"] {
     border: solid black;
     height: 25rem;
     width: 100%;
-    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.slider {
+
 }
