@@ -79,5 +79,12 @@ form input[type="submit"] {
 #gallery {
     background-color: green;
     color: white;
+}
+
+
+.container {
+    border: solid black;
+    height: 25rem;
+    width: 100%;
     
 }
